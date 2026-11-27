@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wgxiadg_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wgxiadg",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wgxiadg_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 14988,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        14987
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14988,
+      "type": "VEC3",
+      "min": [
+        -235.40234375,
+        -124.39921569824219,
+        -232.42514038085938
+      ],
+      "max": [
+        249.79449462890625,
+        136.1574249267578,
+        3.5622711181640625
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14988,
+      "type": "VEC2",
+      "min": [
+        0.001953125,
+        0.004452347755432129
+      ],
+      "max": [
+        0.998046875,
+        0.998046875
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 14988,
+      "type": "VEC3",
+      "min": [
+        -0.9984729886054993,
+        -0.9992680549621582,
+        -0.9984706044197083
+      ],
+      "max": [
+        0.9932578802108765,
+        0.9955534338951111,
+        0.9999802112579346
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 29976,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 179856,
+      "target": 34962,
+      "byteOffset": 29976
+    },
+    {
+      "buffer": 0,
+      "byteLength": 119904,
+      "target": 34962,
+      "byteOffset": 209832
+    },
+    {
+      "buffer": 0,
+      "byteLength": 179856,
+      "target": 34962,
+      "byteOffset": 329736
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 509592,
+      "uri": "SM_wgxiadg_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxiadg_2k_B",
+      "uri": "Textures/T_wgxiadg_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxiadg_2k_N",
+      "uri": "Textures/T_wgxiadg_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxiadg_2k_ORM",
+      "uri": "Textures/T_wgxiadg_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wgxiadg",
+    "asset_type": "3d asset",
+    "name": "wgxiadg",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
