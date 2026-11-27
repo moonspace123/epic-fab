@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yetgfe2_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yetgfe2",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yetgfe2_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 7779,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        7778
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7779,
+      "type": "VEC3",
+      "min": [
+        -42.19148254394531,
+        -33.8559684753418,
+        -29.952999114990234
+      ],
+      "max": [
+        42.58245849609375,
+        36.55440902709961,
+        0.2903900146484375
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7779,
+      "type": "VEC2",
+      "min": [
+        0.003293838817626238,
+        0.0051580071449279785
+      ],
+      "max": [
+        0.9951453804969788,
+        0.9945358037948608
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 7779,
+      "type": "VEC3",
+      "min": [
+        -0.9984706044197083,
+        -0.9995818734169006,
+        -0.9999141097068787
+      ],
+      "max": [
+        0.9963025450706482,
+        0.9992577433586121,
+        0.9624927639961243
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 15558,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 93348,
+      "target": 34962,
+      "byteOffset": 15558
+    },
+    {
+      "buffer": 0,
+      "byteLength": 62232,
+      "target": 34962,
+      "byteOffset": 108906
+    },
+    {
+      "buffer": 0,
+      "byteLength": 93348,
+      "target": 34962,
+      "byteOffset": 171138
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 264486,
+      "uri": "SM_yetgfe2_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yetgfe2_2k_B",
+      "uri": "Textures/T_yetgfe2_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yetgfe2_2k_N",
+      "uri": "Textures/T_yetgfe2_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yetgfe2_2k_ORM",
+      "uri": "Textures/T_yetgfe2_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yetgfe2",
+    "asset_type": "3d asset",
+    "name": "yetgfe2",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
