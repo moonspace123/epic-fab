@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wgxidev_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wgxidev",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wgxidev_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 9804,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        9803
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9804,
+      "type": "VEC3",
+      "min": [
+        -69.66194915771484,
+        -45.59891128540039,
+        -21.043102264404297
+      ],
+      "max": [
+        68.5672607421875,
+        45.36974334716797,
+        7.374499320983887
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9804,
+      "type": "VEC2",
+      "min": [
+        0.006350322626531124,
+        0.0043648481369018555
+      ],
+      "max": [
+        0.9959489107131958,
+        0.9939908385276794
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9804,
+      "type": "VEC3",
+      "min": [
+        -0.9962452054023743,
+        -0.9997303485870361,
+        -0.9999948740005493
+      ],
+      "max": [
+        0.9953633546829224,
+        0.9866001605987549,
+        0.9999674558639526
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 19608,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 117648,
+      "target": 34962,
+      "byteOffset": 19608
+    },
+    {
+      "buffer": 0,
+      "byteLength": 78432,
+      "target": 34962,
+      "byteOffset": 137256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 117648,
+      "target": 34962,
+      "byteOffset": 215688
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 333336,
+      "uri": "SM_wgxidev_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxidev_2k_B",
+      "uri": "Textures/T_wgxidev_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxidev_2k_N",
+      "uri": "Textures/T_wgxidev_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxidev_2k_ORM",
+      "uri": "Textures/T_wgxidev_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wgxidev",
+    "asset_type": "3d asset",
+    "name": "wgxidev",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
