@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wgxiaci_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wgxiaci",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wgxiaci_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 15570,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        15569
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15570,
+      "type": "VEC3",
+      "min": [
+        -78.19452667236328,
+        -50.04058074951172,
+        -80.58618927001953
+      ],
+      "max": [
+        78.44908142089844,
+        49.635894775390625,
+        12.94546127319336
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15570,
+      "type": "VEC2",
+      "min": [
+        0.009205183014273643,
+        0.0067015886306762695
+      ],
+      "max": [
+        0.9873805046081543,
+        0.993440568447113
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 15570,
+      "type": "VEC3",
+      "min": [
+        -0.9952665567398071,
+        -0.9997287392616272,
+        -0.9975848197937012
+      ],
+      "max": [
+        0.996077299118042,
+        0.9971186518669128,
+        0.9999890327453613
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 31140,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 186840,
+      "target": 34962,
+      "byteOffset": 31140
+    },
+    {
+      "buffer": 0,
+      "byteLength": 124560,
+      "target": 34962,
+      "byteOffset": 217980
+    },
+    {
+      "buffer": 0,
+      "byteLength": 186840,
+      "target": 34962,
+      "byteOffset": 342540
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 529380,
+      "uri": "SM_wgxiaci_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxiaci_2k_B",
+      "uri": "Textures/T_wgxiaci_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxiaci_2k_N",
+      "uri": "Textures/T_wgxiaci_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxiaci_2k_ORM",
+      "uri": "Textures/T_wgxiaci_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wgxiaci",
+    "asset_type": "3d asset",
+    "name": "wgxiaci",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
