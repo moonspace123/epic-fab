@@ -1,0 +1,564 @@
+{
+  "assetCategories": {
+    "surface": {
+      "rock": {
+        "cliff": {}
+      }
+    }
+  },
+  "averageColor": "#000000",
+  "categories": [
+    "surface",
+    "rock",
+    "cliffs"
+  ],
+  "comp_version": 1,
+  "description": "",
+  "displacementBias": 0.450999,
+  "displacementCalibrationAccuracy": 0.934777,
+  "displacementScale": 25.246038,
+  "environment": {
+    "biome": "undefined",
+    "region": "Europe"
+  },
+  "highest_available_res": 8192,
+  "id": "tlonbisya",
+  "json": {
+    "contentLength": 12127,
+    "uri": "tlonbisya.json"
+  },
+  "maps": [
+    {
+      "averageColor": "#CBCBCB",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 205036611,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "name": "AO",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "ao",
+      "uri": "tlonbisya_8K_AO.exr"
+    },
+    {
+      "averageColor": "#CBCBCB",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 38453593,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "name": "AO",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "ao",
+      "uri": "tlonbisya_8K_AO.jpg"
+    },
+    {
+      "averageColor": "#493725",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 265385848,
+      "maxIntensity": 109,
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "name": "Basecolor",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "tlonbisya_8K_Basecolor.exr"
+    },
+    {
+      "averageColor": "#493725",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 53398307,
+      "maxIntensity": 109,
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "name": "Basecolor",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "tlonbisya_8K_Basecolor.jpg"
+    },
+    {
+      "averageColor": "#808080",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 180047307,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "name": "Bump",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "bump",
+      "uri": "tlonbisya_8K_Bump.exr"
+    },
+    {
+      "averageColor": "#808080",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 16622522,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "name": "Bump",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "bump",
+      "uri": "tlonbisya_8K_Bump.jpg"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 207691196,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 255,
+      "name": "Cavity",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "tlonbisya_8K_Cavity.exr"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 48938531,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 255,
+      "name": "Cavity",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "tlonbisya_8K_Cavity.jpg"
+    },
+    {
+      "averageColor": "#9F9F9F",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 258019158,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 77,
+      "name": "Displacement",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "displacement",
+      "uri": "tlonbisya_8K_Displacement.exr"
+    },
+    {
+      "averageColor": "#9F9F9F",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 4025391,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 77,
+      "name": "Displacement",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "displacement",
+      "uri": "tlonbisya_8K_Displacement.jpg"
+    },
+    {
+      "averageColor": "#656565",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 180165168,
+      "maxIntensity": 146,
+      "mimeType": "image/x-exr",
+      "minIntensity": 63,
+      "name": "Gloss",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "tlonbisya_8K_Gloss.exr"
+    },
+    {
+      "averageColor": "#656565",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 40808203,
+      "maxIntensity": 146,
+      "mimeType": "image/jpeg",
+      "minIntensity": 63,
+      "name": "Gloss",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "tlonbisya_8K_Gloss.jpg"
+    },
+    {
+      "averageColor": "#8181E4",
+      "bitDepth": 16,
+      "colorSpace": "Linear",
+      "contentLength": 221634780,
+      "maxIntensity": 214,
+      "mimeType": "image/x-exr",
+      "minIntensity": 58,
+      "name": "Normal",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "tlonbisya_8K_Normal.exr"
+    },
+    {
+      "averageColor": "#8181E4",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 84923321,
+      "maxIntensity": 214,
+      "mimeType": "image/jpeg",
+      "minIntensity": 58,
+      "name": "Normal",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "tlonbisya_8K_Normal.jpg"
+    },
+    {
+      "averageColor": "#9A9A9A",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 173788283,
+      "maxIntensity": 192,
+      "mimeType": "image/x-exr",
+      "minIntensity": 109,
+      "name": "Roughness",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "tlonbisya_8K_Roughness.exr"
+    },
+    {
+      "averageColor": "#9A9A9A",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 40420163,
+      "maxIntensity": 192,
+      "mimeType": "image/jpeg",
+      "minIntensity": 109,
+      "name": "Roughness",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "tlonbisya_8K_Roughness.jpg"
+    },
+    {
+      "averageColor": "#383838",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 238554511,
+      "maxIntensity": 56,
+      "mimeType": "image/x-exr",
+      "minIntensity": 56,
+      "name": "Specular",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "tlonbisya_8K_Specular.exr"
+    },
+    {
+      "averageColor": "#383838",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 30792819,
+      "maxIntensity": 56,
+      "mimeType": "image/jpeg",
+      "minIntensity": 56,
+      "name": "Specular",
+      "physicalSize": "2x2",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "tlonbisya_8K_Specular.jpg"
+    }
+  ],
+  "meta": [
+    {
+      "key": "scanArea",
+      "name": "Scan Area",
+      "value": "2x2 m"
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "value": "0.14 m"
+    },
+    {
+      "key": "tileable",
+      "name": "Tileable",
+      "value": true
+    },
+    {
+      "key": "texelDensity",
+      "name": "Texel Density",
+      "value": "4096 px/m"
+    },
+    {
+      "key": "calibration",
+      "name": "Calibration",
+      "value": "GretagMacbeth ColorChecker Color Rendition Chart"
+    },
+    {
+      "key": "scanner",
+      "name": "Scanner",
+      "value": "MKX"
+    }
+  ],
+  "models": [],
+  "name": "Layered Rock Cliff",
+  "pack": null,
+  "physicalSize": null,
+  "points": 2,
+  "previews": {
+    "images": [
+      {
+        "contentLength": 266705,
+        "resolution": "360x360",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "tlonbisya_Grid_360.png"
+      },
+      {
+        "contentLength": 360854,
+        "resolution": "420x420",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "tlonbisya_Grid_420.png"
+      },
+      {
+        "contentLength": 1039944,
+        "resolution": "720x720",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "tlonbisya_Grid_720.png"
+      },
+      {
+        "contentLength": 1406925,
+        "resolution": "840x840",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "tlonbisya_Grid_840.png"
+      },
+      {
+        "contentLength": 3208786,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "tlonbisya_PopupClay_1440.png"
+      },
+      {
+        "contentLength": 6003076,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "tlonbisya_PopupClay_1920.png"
+      },
+      {
+        "contentLength": 12785112,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "tlonbisya_PopupClay_2880.png"
+      },
+      {
+        "contentLength": 23663716,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "tlonbisya_PopupClay_3840.png"
+      },
+      {
+        "contentLength": 3308694,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "tlonbisya_PopupTiled_1440.png"
+      },
+      {
+        "contentLength": 6169335,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "tlonbisya_PopupTiled_1920.png"
+      },
+      {
+        "contentLength": 13083717,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "tlonbisya_PopupTiled_2880.png"
+      },
+      {
+        "contentLength": 24056199,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "tlonbisya_PopupTiled_3840.png"
+      },
+      {
+        "contentLength": 3278739,
+        "resolution": "1440x768",
+        "tags": [
+          "preview"
+        ],
+        "uri": "tlonbisya_Popup_1440.png"
+      },
+      {
+        "contentLength": 6095525,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview"
+        ],
+        "uri": "tlonbisya_Popup_1920.png"
+      },
+      {
+        "contentLength": 12863596,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "tlonbisya_Popup_2880.png"
+      },
+      {
+        "contentLength": 23560100,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "tlonbisya_Popup_3840.png"
+      }
+    ],
+    "relativeSize": "1x1",
+    "scaleReferences": []
+  },
+  "process_date": "2024-04-17 07:13:58",
+  "properties": [],
+  "referencePreviews": {
+    "maps": [],
+    "models": []
+  },
+  "references": [],
+  "revised": false,
+  "revision": 0,
+  "semanticTags": {
+    "3d_mesh": [],
+    "architectural_style": {},
+    "asset_type": "surface",
+    "city": [],
+    "contains": [
+      "rock",
+      "cliff"
+    ],
+    "descriptive": [
+      "rough",
+      " jagged sharp"
+    ],
+    "environment": [
+      "rural"
+    ],
+    "industry": [
+      "archviz",
+      "games",
+      "VFX"
+    ],
+    "interior_exterior": [],
+    "locations": {},
+    "maxSize": 2,
+    "minSize": 2,
+    "name": "Layered Rock Cliff",
+    "orientation": [],
+    "resolution": 8192,
+    "state": [
+      "old"
+    ],
+    "subject_matter": "nature",
+    "theme": [
+      " mountain slope",
+      "cliffs",
+      "mountain"
+    ]
+  },
+  "tags": [
+    "uk",
+    "carboniferous",
+    "shale",
+    "coast",
+    "strata",
+    "stone",
+    "archviz"
+  ],
+  "texelDensity": 4096,
+  "texture_type": "basic",
+  "ue_plugin_archives": [
+    {
+      "contentLength": 331760267,
+      "gltfVersion": "2.0",
+      "tier": 0,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_0/tlonbisya_tier_0.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 99695705,
+      "gltfVersion": "2.0",
+      "tier": 1,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_1/tlonbisya_tier_1.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 26021288,
+      "gltfVersion": "2.0",
+      "tier": 2,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_2/tlonbisya_tier_2.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 2519396,
+      "gltfVersion": "2.0",
+      "tier": 3,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_3/tlonbisya_tier_3.zip",
+      "version": 1
+    }
+  ],
+  "version": 2
+}
