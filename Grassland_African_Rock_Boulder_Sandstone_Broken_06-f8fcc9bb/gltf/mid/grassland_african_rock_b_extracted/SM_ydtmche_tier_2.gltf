@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ydtmche_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_ydtmche",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ydtmche_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 11070,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        11069
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11070,
+      "type": "VEC3",
+      "min": [
+        -25.138809204101562,
+        -28.403560638427734,
+        -38.08613967895508
+      ],
+      "max": [
+        27.750205993652344,
+        27.006000518798828,
+        0.13567304611206055
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11070,
+      "type": "VEC2",
+      "min": [
+        0.0019529999699443579,
+        0.011883020401000977
+      ],
+      "max": [
+        0.9980469942092896,
+        0.9980469942092896
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 11070,
+      "type": "VEC3",
+      "min": [
+        -0.9999377131462097,
+        -0.9989284873008728,
+        -0.9997876286506653
+      ],
+      "max": [
+        0.9973058700561523,
+        0.9995443820953369,
+        1.0
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22140,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132840,
+      "target": 34962,
+      "byteOffset": 22140
+    },
+    {
+      "buffer": 0,
+      "byteLength": 88560,
+      "target": 34962,
+      "byteOffset": 154980
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132840,
+      "target": 34962,
+      "byteOffset": 243540
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 376380,
+      "uri": "SM_ydtmche_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_ydtmche_2k_B",
+      "uri": "Textures/T_ydtmche_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_ydtmche_2k_N",
+      "uri": "Textures/T_ydtmche_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_ydtmche_2k_ORM",
+      "uri": "Textures/T_ydtmche_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "ydtmche",
+    "asset_type": "3d asset",
+    "name": "ydtmche",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
