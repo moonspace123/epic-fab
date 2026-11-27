@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ydsmfjl_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_ydsmfjl",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ydsmfjl_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 20394,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        20393
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20394,
+      "type": "VEC3",
+      "min": [
+        -59.73908233642578,
+        -29.578590393066406,
+        -28.509485244750977
+      ],
+      "max": [
+        60.197731018066406,
+        30.170175552368164,
+        0.45676881074905396
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20394,
+      "type": "VEC2",
+      "min": [
+        0.0012432775693014264,
+        0.0015932321548461914
+      ],
+      "max": [
+        0.9981933236122131,
+        1.0005145072937012
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 20394,
+      "type": "VEC3",
+      "min": [
+        -0.9991274476051331,
+        -0.999810516834259,
+        -0.9999486207962036
+      ],
+      "max": [
+        0.9995843768119812,
+        0.9981405138969421,
+        0.8977993726730347
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 40788,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 244728,
+      "target": 34962,
+      "byteOffset": 40788
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163152,
+      "target": 34962,
+      "byteOffset": 285516
+    },
+    {
+      "buffer": 0,
+      "byteLength": 244728,
+      "target": 34962,
+      "byteOffset": 448668
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 693396,
+      "uri": "SM_ydsmfjl_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_ydsmfjl_2k_B",
+      "uri": "Textures/T_ydsmfjl_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_ydsmfjl_2k_N",
+      "uri": "Textures/T_ydsmfjl_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_ydsmfjl_2k_ORM",
+      "uri": "Textures/T_ydsmfjl_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "ydsmfjl",
+    "asset_type": "3d asset",
+    "name": "ydsmfjl",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
