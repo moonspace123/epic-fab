@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "whhlfek_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_whhlfek",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "whhlfek_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 7470,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        7469
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7470,
+      "type": "VEC3",
+      "min": [
+        -13.334312438964844,
+        -10.461517333984375,
+        -13.579265594482422
+      ],
+      "max": [
+        12.793083190917969,
+        7.34649658203125,
+        0.09744453430175781
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7470,
+      "type": "VEC2",
+      "min": [
+        0.0017579159466549754,
+        0.0018336772918701172
+      ],
+      "max": [
+        0.9974070191383362,
+        0.9980711936950684
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 7470,
+      "type": "VEC3",
+      "min": [
+        -0.9967470765113831,
+        -0.9983729720115662,
+        -0.9989508986473083
+      ],
+      "max": [
+        0.9979543685913086,
+        0.9999867677688599,
+        0.9999786615371704
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14940,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 89640,
+      "target": 34962,
+      "byteOffset": 14940
+    },
+    {
+      "buffer": 0,
+      "byteLength": 59760,
+      "target": 34962,
+      "byteOffset": 104580
+    },
+    {
+      "buffer": 0,
+      "byteLength": 89640,
+      "target": 34962,
+      "byteOffset": 164340
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 253980,
+      "uri": "SM_whhlfek_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_whhlfek_2k_B",
+      "uri": "Textures/T_whhlfek_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_whhlfek_2k_N",
+      "uri": "Textures/T_whhlfek_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_whhlfek_2k_ORM",
+      "uri": "Textures/T_whhlfek_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "whhlfek",
+    "asset_type": "3d asset",
+    "name": "whhlfek",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
