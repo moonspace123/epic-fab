@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yh2mfh0r_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yh2mfh0r",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yh2mfh0r_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 8970,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        8969
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8970,
+      "type": "VEC3",
+      "min": [
+        -11.827507019042969,
+        -8.375688552856445,
+        -12.842348098754883
+      ],
+      "max": [
+        11.80737590789795,
+        8.377580642700195,
+        0.2903938293457031
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8970,
+      "type": "VEC2",
+      "min": [
+        0.007114049047231674,
+        0.006213724613189697
+      ],
+      "max": [
+        0.9958983063697815,
+        0.9941060543060303
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8970,
+      "type": "VEC3",
+      "min": [
+        -0.9936268925666809,
+        -0.9996722340583801,
+        -0.9969444274902344
+      ],
+      "max": [
+        0.9852854609489441,
+        0.9996395707130432,
+        0.9999257326126099
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 17940,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 107640,
+      "target": 34962,
+      "byteOffset": 17940
+    },
+    {
+      "buffer": 0,
+      "byteLength": 71760,
+      "target": 34962,
+      "byteOffset": 125580
+    },
+    {
+      "buffer": 0,
+      "byteLength": 107640,
+      "target": 34962,
+      "byteOffset": 197340
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 304980,
+      "uri": "SM_yh2mfh0r_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yh2mfh0r_2k_B",
+      "uri": "Textures/T_yh2mfh0r_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yh2mfh0r_2k_N",
+      "uri": "Textures/T_yh2mfh0r_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yh2mfh0r_2k_ORM",
+      "uri": "Textures/T_yh2mfh0r_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yh2mfh0r",
+    "asset_type": "3d asset",
+    "name": "yh2mfh0r",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
