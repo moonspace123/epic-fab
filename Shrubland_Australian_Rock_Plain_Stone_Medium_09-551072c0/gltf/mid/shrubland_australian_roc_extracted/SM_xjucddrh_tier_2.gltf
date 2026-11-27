@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "xjucddrh_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_xjucddrh",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "xjucddrh_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 5226,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        5225
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5226,
+      "type": "VEC3",
+      "min": [
+        -10.056121826171875,
+        -6.01091194152832,
+        -7.357632160186768
+      ],
+      "max": [
+        9.989513397216797,
+        6.052363395690918,
+        0.11824536323547363
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5226,
+      "type": "VEC2",
+      "min": [
+        0.0019529999699443579,
+        0.0023130178451538086
+      ],
+      "max": [
+        0.997979998588562,
+        0.9980469942092896
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5226,
+      "type": "VEC3",
+      "min": [
+        -0.9973605275154114,
+        -0.9998267889022827,
+        -0.9990103244781494
+      ],
+      "max": [
+        0.9871060252189636,
+        0.9992042779922485,
+        0.9998601675033569
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 10452,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 62712,
+      "target": 34962,
+      "byteOffset": 10452
+    },
+    {
+      "buffer": 0,
+      "byteLength": 41808,
+      "target": 34962,
+      "byteOffset": 73164
+    },
+    {
+      "buffer": 0,
+      "byteLength": 62712,
+      "target": 34962,
+      "byteOffset": 114972
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 177684,
+      "uri": "SM_xjucddrh_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_xjucddrh_2k_B",
+      "uri": "Textures/T_xjucddrh_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_xjucddrh_2k_N",
+      "uri": "Textures/T_xjucddrh_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_xjucddrh_2k_ORM",
+      "uri": "Textures/T_xjucddrh_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "xjucddrh",
+    "asset_type": "3d asset",
+    "name": "xjucddrh",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
