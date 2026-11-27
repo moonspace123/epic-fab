@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wgqteir_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wgqteir",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wgqteir_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 14157,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        14156
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14157,
+      "type": "VEC3",
+      "min": [
+        -262.4627685546875,
+        -143.00167846679688,
+        -50.50499725341797
+      ],
+      "max": [
+        262.44378662109375,
+        143.1127166748047,
+        1.2481845617294312
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14157,
+      "type": "VEC2",
+      "min": [
+        0.023486699908971786,
+        0.015730977058410645
+      ],
+      "max": [
+        0.9842489957809448,
+        0.9814987182617188
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 14157,
+      "type": "VEC3",
+      "min": [
+        -0.9983684420585632,
+        -0.9998695850372314,
+        -0.9999957084655762
+      ],
+      "max": [
+        0.9995960593223572,
+        0.9999054074287415,
+        0.999812126159668
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28314,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 169884,
+      "target": 34962,
+      "byteOffset": 28314
+    },
+    {
+      "buffer": 0,
+      "byteLength": 113256,
+      "target": 34962,
+      "byteOffset": 198198
+    },
+    {
+      "buffer": 0,
+      "byteLength": 169884,
+      "target": 34962,
+      "byteOffset": 311454
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 481338,
+      "uri": "SM_wgqteir_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wgqteir_2k_B",
+      "uri": "Textures/T_wgqteir_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgqteir_2k_N",
+      "uri": "Textures/T_wgqteir_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgqteir_2k_ORM",
+      "uri": "Textures/T_wgqteir_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wgqteir",
+    "asset_type": "3d asset",
+    "name": "wgqteir",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
