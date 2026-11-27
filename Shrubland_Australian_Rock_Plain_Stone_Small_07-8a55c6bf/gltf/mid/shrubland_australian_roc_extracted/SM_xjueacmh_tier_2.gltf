@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "xjueacmh_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_xjueacmh",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "xjueacmh_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 5994,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        5993
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5994,
+      "type": "VEC3",
+      "min": [
+        -4.5496649742126465,
+        -3.442981243133545,
+        -5.30307149887085
+      ],
+      "max": [
+        4.565977096557617,
+        2.5686686038970947,
+        0.17285466194152832
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5994,
+      "type": "VEC2",
+      "min": [
+        0.00107164669316262,
+        0.005638718605041504
+      ],
+      "max": [
+        0.996996283531189,
+        0.9956080317497253
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5994,
+      "type": "VEC3",
+      "min": [
+        -0.9710959196090698,
+        -0.998233437538147,
+        -0.9994205236434937
+      ],
+      "max": [
+        0.9841127395629883,
+        0.9998952150344849,
+        0.9991446733474731
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11988,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 71928,
+      "target": 34962,
+      "byteOffset": 11988
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47952,
+      "target": 34962,
+      "byteOffset": 83916
+    },
+    {
+      "buffer": 0,
+      "byteLength": 71928,
+      "target": 34962,
+      "byteOffset": 131868
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 203796,
+      "uri": "SM_xjueacmh_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_xjueacmh_2k_B",
+      "uri": "Textures/T_xjueacmh_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_xjueacmh_2k_N",
+      "uri": "Textures/T_xjueacmh_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_xjueacmh_2k_ORM",
+      "uri": "Textures/T_xjueacmh_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "xjueacmh",
+    "asset_type": "3d asset",
+    "name": "xjueacmh",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
