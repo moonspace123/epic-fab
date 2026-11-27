@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yibofeu_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yibofeu",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yibofeu_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 21885,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        21884
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 21885,
+      "type": "VEC3",
+      "min": [
+        -235.6676025390625,
+        -129.3851776123047,
+        -228.50332641601562
+      ],
+      "max": [
+        238.90008544921875,
+        121.63471984863281,
+        0.8663082122802734
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 21885,
+      "type": "VEC2",
+      "min": [
+        0.0019529999699443579,
+        0.0019530057907104492
+      ],
+      "max": [
+        0.9979310035705566,
+        0.9980469942092896
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 21885,
+      "type": "VEC3",
+      "min": [
+        -0.999848484992981,
+        -0.9994986653327942,
+        -0.9992126822471619
+      ],
+      "max": [
+        0.9935325384140015,
+        0.9999496936798096,
+        0.9303540587425232
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 43770,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 262620,
+      "target": 34962,
+      "byteOffset": 43770
+    },
+    {
+      "buffer": 0,
+      "byteLength": 175080,
+      "target": 34962,
+      "byteOffset": 306390
+    },
+    {
+      "buffer": 0,
+      "byteLength": 262620,
+      "target": 34962,
+      "byteOffset": 481470
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 744090,
+      "uri": "SM_yibofeu_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yibofeu_2k_B",
+      "uri": "Textures/T_yibofeu_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yibofeu_2k_N",
+      "uri": "Textures/T_yibofeu_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yibofeu_2k_ORM",
+      "uri": "Textures/T_yibofeu_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yibofeu",
+    "asset_type": "3d asset",
+    "name": "yibofeu",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
