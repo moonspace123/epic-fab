@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wfxlbah_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wfxlbah",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wfxlbah_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 10494,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        10493
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 10494,
+      "type": "VEC3",
+      "min": [
+        -24.331008911132812,
+        -22.674089431762695,
+        -33.621803283691406
+      ],
+      "max": [
+        29.00336265563965,
+        19.71185874938965,
+        2.618342399597168
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10494,
+      "type": "VEC2",
+      "min": [
+        0.007406848948448896,
+        0.008696556091308594
+      ],
+      "max": [
+        0.9915748834609985,
+        0.9836127758026123
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 10494,
+      "type": "VEC3",
+      "min": [
+        -0.9986050128936768,
+        -0.9999991655349731,
+        -0.9994745850563049
+      ],
+      "max": [
+        0.9972540140151978,
+        0.9999180436134338,
+        0.9999884366989136
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 20988,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 125928,
+      "target": 34962,
+      "byteOffset": 20988
+    },
+    {
+      "buffer": 0,
+      "byteLength": 83952,
+      "target": 34962,
+      "byteOffset": 146916
+    },
+    {
+      "buffer": 0,
+      "byteLength": 125928,
+      "target": 34962,
+      "byteOffset": 230868
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 356796,
+      "uri": "SM_wfxlbah_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wfxlbah_2k_B",
+      "uri": "Textures/T_wfxlbah_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wfxlbah_2k_N",
+      "uri": "Textures/T_wfxlbah_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wfxlbah_2k_ORM",
+      "uri": "Textures/T_wfxlbah_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wfxlbah",
+    "asset_type": "3d asset",
+    "name": "wfxlbah",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
