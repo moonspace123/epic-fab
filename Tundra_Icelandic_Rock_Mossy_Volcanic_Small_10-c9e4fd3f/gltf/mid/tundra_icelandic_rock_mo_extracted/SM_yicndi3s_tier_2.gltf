@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yicndi3s_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yicndi3s",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yicndi3s_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 14571,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        14570
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14571,
+      "type": "VEC3",
+      "min": [
+        -9.814513206481934,
+        -7.778456687927246,
+        -5.177485942840576
+      ],
+      "max": [
+        13.584954261779785,
+        7.4115800857543945,
+        0.10009075701236725
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14571,
+      "type": "VEC2",
+      "min": [
+        0.001953125,
+        0.004160284996032715
+      ],
+      "max": [
+        0.998046875,
+        0.998046875
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 14571,
+      "type": "VEC3",
+      "min": [
+        -0.9998842477798462,
+        -0.9988264441490173,
+        -1.0
+      ],
+      "max": [
+        0.9983822107315063,
+        0.9990425705909729,
+        0.8183250427246094
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 29142,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 174852,
+      "target": 34962,
+      "byteOffset": 29142
+    },
+    {
+      "buffer": 0,
+      "byteLength": 116568,
+      "target": 34962,
+      "byteOffset": 203994
+    },
+    {
+      "buffer": 0,
+      "byteLength": 174852,
+      "target": 34962,
+      "byteOffset": 320562
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 495414,
+      "uri": "SM_yicndi3s_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yicndi3s_2k_B",
+      "uri": "Textures/T_yicndi3s_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yicndi3s_2k_N",
+      "uri": "Textures/T_yicndi3s_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yicndi3s_2k_ORM",
+      "uri": "Textures/T_yicndi3s_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yicndi3s",
+    "asset_type": "3d asset",
+    "name": "yicndi3s",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
