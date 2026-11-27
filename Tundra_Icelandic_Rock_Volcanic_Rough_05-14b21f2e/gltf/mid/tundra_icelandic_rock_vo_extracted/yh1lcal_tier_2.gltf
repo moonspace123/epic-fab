@@ -1,0 +1,225 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Houdini GLTF 2.0 Exporter"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5121,
+      "count": 6,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "min": [
+        -0.25,
+        0,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0,
+        0.25
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC2",
+      "min": [
+        0,
+        0.000106811523
+      ],
+      "max": [
+        0.999893188,
+        1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "min": [
+        0,
+        1,
+        0
+      ],
+      "max": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "yh1lcal_tier_2_data.bin",
+      "byteLength": 200,
+      "name": "main_buffer"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8,
+      "byteLength": 72,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80,
+      "byteLength": 48,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128,
+      "byteLength": 72,
+      "target": 34962
+    }
+  ],
+  "nodes": [
+    {
+      "name": "yh1lcal_tier_2",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "TEXCOORD_0": 2,
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "yh1lcal_tier_2"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "materials": [
+    {
+      "name": "MI_yh1lcal",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "doubleSided": false,
+      "alphaMode": "OPAQUE",
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      },
+      "extras": {
+        "overrides": {
+          "displacement": {
+            "magnitude": 0.857313,
+            "center": 0.61881
+          }
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yh1lcal_2k_B",
+      "uri": "Textures/T_yh1lcal_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yh1lcal_2k_N",
+      "uri": "Textures/T_yh1lcal_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yh1lcal_2k_ORM",
+      "uri": "Textures/T_yh1lcal_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yh1lcal_2k_H",
+      "uri": "Textures/T_yh1lcal_2k_H.png",
+      "extras": {
+        "textureSlot": "HeightTexture",
+        "compression": "alpha"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yh1lcal",
+    "asset_type": "surface",
+    "name": "Tundra Icelandic Rock Volcanic Rough 05",
+    "resolution": "2048x2048",
+    "megascans_gltf_version": 2
+  },
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
+}
