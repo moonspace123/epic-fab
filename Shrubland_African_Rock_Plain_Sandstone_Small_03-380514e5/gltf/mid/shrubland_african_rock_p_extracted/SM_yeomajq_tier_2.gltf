@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yeomajq_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yeomajq",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yeomajq_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 14010,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        14009
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14010,
+      "type": "VEC3",
+      "min": [
+        -54.75556182861328,
+        -56.09758377075195,
+        -50.14678192138672
+      ],
+      "max": [
+        59.09477996826172,
+        45.92546844482422,
+        1.4934043884277344
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14010,
+      "type": "VEC2",
+      "min": [
+        0.006462175399065018,
+        0.0039030909538269043
+      ],
+      "max": [
+        0.9975277781486511,
+        0.994858980178833
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 14010,
+      "type": "VEC3",
+      "min": [
+        -0.9996768832206726,
+        -0.9994679093360901,
+        -0.99944007396698
+      ],
+      "max": [
+        0.9999459385871887,
+        0.9995319247245789,
+        0.8991389870643616
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28020,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168120,
+      "target": 34962,
+      "byteOffset": 28020
+    },
+    {
+      "buffer": 0,
+      "byteLength": 112080,
+      "target": 34962,
+      "byteOffset": 196140
+    },
+    {
+      "buffer": 0,
+      "byteLength": 168120,
+      "target": 34962,
+      "byteOffset": 308220
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 476340,
+      "uri": "SM_yeomajq_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yeomajq_2k_B",
+      "uri": "Textures/T_yeomajq_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yeomajq_2k_N",
+      "uri": "Textures/T_yeomajq_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yeomajq_2k_ORM",
+      "uri": "Textures/T_yeomajq_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yeomajq",
+    "asset_type": "3d asset",
+    "name": "yeomajq",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
