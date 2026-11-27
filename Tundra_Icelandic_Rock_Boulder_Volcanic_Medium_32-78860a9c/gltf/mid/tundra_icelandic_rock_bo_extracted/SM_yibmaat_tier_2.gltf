@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yibmaat_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yibmaat",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yibmaat_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 9348,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        9347
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9348,
+      "type": "VEC3",
+      "min": [
+        -50.610408782958984,
+        -32.938663482666016,
+        -73.95046997070312
+      ],
+      "max": [
+        54.357704162597656,
+        38.91987991333008,
+        1.0185012817382812
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9348,
+      "type": "VEC2",
+      "min": [
+        0.010121355764567852,
+        0.009733736515045166
+      ],
+      "max": [
+        0.989935040473938,
+        0.9939501285552979
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9348,
+      "type": "VEC3",
+      "min": [
+        -0.9985988140106201,
+        -0.9961957335472107,
+        -0.9987602233886719
+      ],
+      "max": [
+        0.9970367550849915,
+        0.9997202157974243,
+        0.9995453953742981
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 18696,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 112176,
+      "target": 34962,
+      "byteOffset": 18696
+    },
+    {
+      "buffer": 0,
+      "byteLength": 74784,
+      "target": 34962,
+      "byteOffset": 130872
+    },
+    {
+      "buffer": 0,
+      "byteLength": 112176,
+      "target": 34962,
+      "byteOffset": 205656
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 317832,
+      "uri": "SM_yibmaat_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yibmaat_2k_B",
+      "uri": "Textures/T_yibmaat_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yibmaat_2k_N",
+      "uri": "Textures/T_yibmaat_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yibmaat_2k_ORM",
+      "uri": "Textures/T_yibmaat_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yibmaat",
+    "asset_type": "3d asset",
+    "name": "yibmaat",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
