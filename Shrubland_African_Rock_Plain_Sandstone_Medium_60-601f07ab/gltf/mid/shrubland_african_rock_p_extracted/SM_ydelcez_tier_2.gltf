@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ydelcez_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_ydelcez",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ydelcez_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 11016,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        11015
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11016,
+      "type": "VEC3",
+      "min": [
+        -23.700824737548828,
+        -24.22207260131836,
+        -30.865325927734375
+      ],
+      "max": [
+        24.242860794067383,
+        23.829504013061523,
+        0.03327035903930664
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11016,
+      "type": "VEC2",
+      "min": [
+        0.008500000461935997,
+        0.0031999945640563965
+      ],
+      "max": [
+        0.9951000213623047,
+        0.9943000078201294
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 11016,
+      "type": "VEC3",
+      "min": [
+        -0.9999487400054932,
+        -0.9999498128890991,
+        -0.9996927380561829
+      ],
+      "max": [
+        0.9999334812164307,
+        0.999338686466217,
+        0.9993658065795898
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22032,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132192,
+      "target": 34962,
+      "byteOffset": 22032
+    },
+    {
+      "buffer": 0,
+      "byteLength": 88128,
+      "target": 34962,
+      "byteOffset": 154224
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132192,
+      "target": 34962,
+      "byteOffset": 242352
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 374544,
+      "uri": "SM_ydelcez_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_ydelcez_2k_B",
+      "uri": "Textures/T_ydelcez_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_ydelcez_2k_N",
+      "uri": "Textures/T_ydelcez_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_ydelcez_2k_ORM",
+      "uri": "Textures/T_ydelcez_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "ydelcez",
+    "asset_type": "3d asset",
+    "name": "ydelcez",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
