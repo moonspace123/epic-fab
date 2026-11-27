@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wgxfeamcc_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wgxfeamcc",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wgxfeamcc_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 17109,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        17108
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17109,
+      "type": "VEC3",
+      "min": [
+        -81.86569213867188,
+        -53.396873474121094,
+        -51.104103088378906
+      ],
+      "max": [
+        84.20682525634766,
+        56.23455810546875,
+        0.31960487365722656
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17109,
+      "type": "VEC2",
+      "min": [
+        0.003022671677172184,
+        0.0031468868255615234
+      ],
+      "max": [
+        0.9962717294692993,
+        0.9967935085296631
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 17109,
+      "type": "VEC3",
+      "min": [
+        -0.9961310029029846,
+        -0.9999427795410156,
+        -1.0
+      ],
+      "max": [
+        0.9997121691703796,
+        0.9996858239173889,
+        0.9966625571250916
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 34218,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 205308,
+      "target": 34962,
+      "byteOffset": 34218
+    },
+    {
+      "buffer": 0,
+      "byteLength": 136872,
+      "target": 34962,
+      "byteOffset": 239526
+    },
+    {
+      "buffer": 0,
+      "byteLength": 205308,
+      "target": 34962,
+      "byteOffset": 376398
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 581706,
+      "uri": "SM_wgxfeamcc_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxfeamcc_2k_B",
+      "uri": "Textures/T_wgxfeamcc_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxfeamcc_2k_N",
+      "uri": "Textures/T_wgxfeamcc_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxfeamcc_2k_ORM",
+      "uri": "Textures/T_wgxfeamcc_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wgxfeamcc",
+    "asset_type": "3d asset",
+    "name": "wgxfeamcc",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
