@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "yifwaaws_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_yifwaaws",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "yifwaaws_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 7272,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        7271
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7272,
+      "type": "VEC3",
+      "min": [
+        -8.010970115661621,
+        -9.85562801361084,
+        -11.218464851379395
+      ],
+      "max": [
+        8.460102081298828,
+        10.094233512878418,
+        0.4460306167602539
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7272,
+      "type": "VEC2",
+      "min": [
+        0.00390625,
+        0.004394054412841797
+      ],
+      "max": [
+        0.9457057118415833,
+        0.99609375
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 7272,
+      "type": "VEC3",
+      "min": [
+        -0.9996178150177002,
+        -0.997583270072937,
+        -0.9981220364570618
+      ],
+      "max": [
+        0.9991374015808105,
+        0.9998798370361328,
+        0.999840259552002
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14544,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 87264,
+      "target": 34962,
+      "byteOffset": 14544
+    },
+    {
+      "buffer": 0,
+      "byteLength": 58176,
+      "target": 34962,
+      "byteOffset": 101808
+    },
+    {
+      "buffer": 0,
+      "byteLength": 87264,
+      "target": 34962,
+      "byteOffset": 159984
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 247248,
+      "uri": "SM_yifwaaws_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_yifwaaws_2k_B",
+      "uri": "Textures/T_yifwaaws_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yifwaaws_2k_N",
+      "uri": "Textures/T_yifwaaws_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_yifwaaws_2k_ORM",
+      "uri": "Textures/T_yifwaaws_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "yifwaaws",
+    "asset_type": "3d asset",
+    "name": "yifwaaws",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
