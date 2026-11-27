@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wgxgajp_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wgxgajp",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wgxgajp_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 15018,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        15017
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15018,
+      "type": "VEC3",
+      "min": [
+        -79.90023803710938,
+        -51.60240936279297,
+        -66.39986419677734
+      ],
+      "max": [
+        84.85917663574219,
+        40.86119079589844,
+        10.799539566040039
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15018,
+      "type": "VEC2",
+      "min": [
+        0.0024999999441206455,
+        0.001999974250793457
+      ],
+      "max": [
+        0.9954000115394592,
+        0.9979000091552734
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 15018,
+      "type": "VEC3",
+      "min": [
+        -0.992308497428894,
+        -0.9975191354751587,
+        -0.999713659286499
+      ],
+      "max": [
+        0.9990004301071167,
+        0.9998587369918823,
+        0.9997885823249817
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30036,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 180216,
+      "target": 34962,
+      "byteOffset": 30036
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120144,
+      "target": 34962,
+      "byteOffset": 210252
+    },
+    {
+      "buffer": 0,
+      "byteLength": 180216,
+      "target": 34962,
+      "byteOffset": 330396
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 510612,
+      "uri": "SM_wgxgajp_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxgajp_2k_B",
+      "uri": "Textures/T_wgxgajp_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxgajp_2k_N",
+      "uri": "Textures/T_wgxgajp_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wgxgajp_2k_ORM",
+      "uri": "Textures/T_wgxgajp_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wgxgajp",
+    "asset_type": "3d asset",
+    "name": "wgxgajp",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
