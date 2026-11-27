@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "wlhcajth_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_wlhcajth",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wlhcajth_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 5832,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        5831
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5832,
+      "type": "VEC3",
+      "min": [
+        -17.898401260375977,
+        -13.887628555297852,
+        -14.049220085144043
+      ],
+      "max": [
+        17.89169692993164,
+        14.14885139465332,
+        0.07327564060688019
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5832,
+      "type": "VEC2",
+      "min": [
+        0.012248235754668713,
+        0.01236271858215332
+      ],
+      "max": [
+        0.9857679009437561,
+        0.9897136092185974
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5832,
+      "type": "VEC3",
+      "min": [
+        -0.940133810043335,
+        -0.9465672969818115,
+        -0.9998306035995483
+      ],
+      "max": [
+        0.9903103709220886,
+        0.9721418023109436,
+        0.9999983310699463
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11664,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69984,
+      "target": 34962,
+      "byteOffset": 11664
+    },
+    {
+      "buffer": 0,
+      "byteLength": 46656,
+      "target": 34962,
+      "byteOffset": 81648
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69984,
+      "target": 34962,
+      "byteOffset": 128304
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 198288,
+      "uri": "SM_wlhcajth_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_wlhcajth_2k_B",
+      "uri": "Textures/T_wlhcajth_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wlhcajth_2k_N",
+      "uri": "Textures/T_wlhcajth_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_wlhcajth_2k_ORM",
+      "uri": "Textures/T_wlhcajth_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "wlhcajth",
+    "asset_type": "3d asset",
+    "name": "wlhcajth",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
