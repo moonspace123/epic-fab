@@ -1,0 +1,215 @@
+{
+  "asset": {
+    "generator": "QX Asset Compiler",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "xbcpcdk_LOD2_TIER2_000",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "MI_xbcpcdk",
+      "doubleSided": true,
+      "alphaMode": "OPAQUE",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "strength": 1.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "xbcpcdk_LOD2_TIER2_000",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 22380,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        22379
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22380,
+      "type": "VEC3",
+      "min": [
+        -7.318170070648193,
+        -5.523394584655762,
+        -7.121870040893555
+      ],
+      "max": [
+        6.756587028503418,
+        5.555863857269287,
+        0.293576180934906
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22380,
+      "type": "VEC2",
+      "min": [
+        0.0039059999398887157,
+        0.0192795991897583
+      ],
+      "max": [
+        0.9960939884185791,
+        0.9960939884185791
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 22380,
+      "type": "VEC3",
+      "min": [
+        -0.9974907040596008,
+        -0.9997747540473938,
+        -0.999982476234436
+      ],
+      "max": [
+        0.9999139308929443,
+        0.9996640086174011,
+        0.9999806880950928
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 44760,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 268560,
+      "target": 34962,
+      "byteOffset": 44760
+    },
+    {
+      "buffer": 0,
+      "byteLength": 179040,
+      "target": 34962,
+      "byteOffset": 313320
+    },
+    {
+      "buffer": 0,
+      "byteLength": 268560,
+      "target": 34962,
+      "byteOffset": 492360
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 760920,
+      "uri": "SM_xbcpcdk_tier_2_data.bin",
+      "name": "main_buffer"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "T_xbcpcdk_2k_B",
+      "uri": "Textures/T_xbcpcdk_2k_B.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_xbcpcdk_2k_N",
+      "uri": "Textures/T_xbcpcdk_2k_N.png"
+    },
+    {
+      "mimeType": "image/png",
+      "name": "T_xbcpcdk_2k_ORM",
+      "uri": "Textures/T_xbcpcdk_2k_ORM.png",
+      "extras": {
+        "compression": "mask"
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extras": {
+    "tier": 2,
+    "asset_id": "xbcpcdk",
+    "asset_type": "3d asset",
+    "name": "xbcpcdk",
+    "resolution": "2048x2048",
+    "megacans_gltf_version": 2
+  }
+}
